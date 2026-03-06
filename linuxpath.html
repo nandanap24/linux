@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LinuxPath — All 5 Modules</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="linuxpath.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo"><div class="logo-icon">🐧</div>Linux<span>Path</span></div>
+  <div class="prog-pill">
+    <span class="prog-pill-text" id="prog-text">0 / 25 topics</span>
+    <div class="prog-pill-bar"><div class="prog-pill-fill" id="prog-fill" style="width:0%"></div></div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <div class="sidebar-label">LinuxPath — All 5 Modules</div>
+      <div class="sb-prog-wrap"><div class="sb-prog-fill" id="sb-fill" style="width:0%"></div></div>
+      <div class="sb-prog-row"><span>Completed</span><b id="sb-pct">0%</b></div>
+    </div>
+    <div id="nav-list"></div>
+    <button class="btn-reset" onclick="resetProgress()">↺ Reset All Progress</button>
+  </aside>
+  <main class="main" id="main-area"></main>
+</div>
+
+<script src="linuxpath.js"></script>
+</body>
+</html>
